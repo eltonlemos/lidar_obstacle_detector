@@ -1,0 +1,9 @@
+obstacle_detector:
+  ros__parameters:
+    lidar_points_topic: "/velodyne_points"
+    cloud_ground_topic: "obstacle_detector/cloud_ground"
+    cloud_clusters_topic: "obstacle_detector/cloud_clusters"
+    jsk_bboxes_topic: "obstacle_detector/jsk_bboxes"
+    autoware_objects_topic: "obstacle_detector/objects"
+    bbox_target_frame: "velodyne"
+
